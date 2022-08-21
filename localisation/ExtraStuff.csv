@@ -377,3 +377,11 @@ NET_1399;Palembang;Palembang;Palembang;;Palembang;;;;;;;;;x;
 NET_1413;West Java;West Java;West Java;;West Java;;;;;;;;;x;
 NET_1419;Southeast Java;Southeast Java;Southeast Java;;Southeast Java;;;;;;;;;x;
 NET_1421;Northeast Java;Northeast Java;Northeast Java;;Northeast Java;;;;;;;;;x;
+acquire_all_cores;Acquire all cores;Prendre territoire cl?Kernprovinzregion erobern;;Adquirir n?leo;;;;;;;;;x;;;;
+acquire_all_cores_short;Acquire $STATE$; Prendre le territoire cl?de $STATE$;Kernprovinzregion $STATE$ erobern;;Adquirir $STATE$;;;;;;;;;x;;;;
+acquire_all_cores_setup;Acquire all core states from $RECIPIENT$;Prendre territoire cl?$STATE$ ?$RECIPIENT$;Kernprovinzregion $STATE$ von $RECIPIENT$ erobern.;;Adquirir el n?leo de $STATE$ de manos de $RECIPIENT$;;;;;;;;;x;;;;
+acquire_all_cores_desc;Acquire all enemy §Ystates§W where we have §Ycore provinces§W;Prendre un §YÉtat§W ennemi où nous avons des §Yprovinces principales§W;Erobern Sie einen feindlichen §YStaat§W, in dem wir §YKernprovinzen§W haben.;;Adquirir un §Yestado§W enemigo donde tenemos §Yprovincias núcleo§W;;;;;;;;;x
+AGRESSION_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;
+NORMAL_WAR_ALL_CORES_NAME;$ORDER$War of $FIRST$ Liberation;;;;;;;;;;;;;
+AGRESSION_WAR_ALL_CORES_NAME_USA_MEX;The $ORDER$Mexican-American War;;;;;;;;;;;;;
+NORMAL_WAR_ALL_CORES_NAME_USA_MEX;The $ORDER$Mexican-American War;;;;;;;;;;;;;
