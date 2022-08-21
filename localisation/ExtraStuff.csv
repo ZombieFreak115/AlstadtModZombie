@@ -373,3 +373,7 @@ select_country_to_swap_to_title;Set The Destination Tag to a Target Country.;;;;
 select_country_to_swap_to_desc;Click this decision to set a target country as the destination tag, and move the initially selected player to said tag.;;;;;;;;;;;
 reset_swap_selection_title;Reset Tag Switch Selection;;;;;;;;;;;
 reset_swap_selection_desc;Clicking this decision will reset the countries flagged for tag swaps;;;;;;;;;;;
+NET_1399;Palembang;Palembang;Palembang;;Palembang;;;;;;;;;x;
+NET_1413;West Java;West Java;West Java;;West Java;;;;;;;;;x;
+NET_1419;Southeast Java;Southeast Java;Southeast Java;;Southeast Java;;;;;;;;;x;
+NET_1421;Northeast Java;Northeast Java;Northeast Java;;Northeast Java;;;;;;;;;x;
