@@ -103,4 +103,36 @@ political_decisions = {
 		
 		ai_will_do = { factor = 0 }
 	}
+	puppet_break_free_ai_war = {
+		picture = puppet_break_free
+		alert = yes
+		potential = {
+			war = yes
+			ai = no
+			war_countries = { ai = yes }
+			OR = {
+				is_vassal = yes
+				is_substate = yes
+			}
+		}
+
+		allow = {
+			overlord = {
+				NOT = { truce_with = THIS }
+			}
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					ai = yes
+					war_with = THIS
+				}
+				end_war = THIS
+			}
+			overlord = { country_event = 477877796 }
+		}
+		ai_will_do = { factor = 0 }
+
+	}
 }

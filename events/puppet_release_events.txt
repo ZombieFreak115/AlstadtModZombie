@@ -234,3 +234,28 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = 477877796
+	title = "$FROMCOUNTRY$ is revolting!"
+	desc = " Our vassal, $FROMCOUNTRY$ has revolted against our rule!"
+	
+	is_triggered_only = yes
+
+	immediate = {
+		random_country = {
+			limit = {
+				tag = FROM
+			}
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = become_independent }
+			}
+		}
+	
+	}
+	
+	option = {
+		name = "Damnit!"
+	}
+}
