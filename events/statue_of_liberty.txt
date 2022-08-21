@@ -10,19 +10,6 @@ country_event = {
 		name = "Let's not decide yet"
 	}
 	option = {
-		name = "Canada! @CAN"
-		random_country = {
-			limit = {
-				NOT = { has_global_flag = statue_of_liberty_has_been_built }
-				exists = yes
-				tag = CAN
-				ai = no
-			}
-			THIS = { set_global_flag = statue_of_liberty_has_been_built }
-			country_event = 19300
-		}
-	}
-	option = {
 		name = "USA! @USA"
 		random_country = {
 			limit = {
@@ -94,19 +81,6 @@ country_event = {
 				NOT = { has_global_flag = statue_of_liberty_has_been_built }
 				exists = yes
 				tag = ARG
-				ai = no
-			}
-			THIS = { set_global_flag = statue_of_liberty_has_been_built }
-			country_event = 19300
-		}
-	}
-	option = {
-		name = "Australia! @AST"
-		random_country = {
-			limit = {
-				NOT = { has_global_flag = statue_of_liberty_has_been_built }
-				exists = yes
-				tag = AST
 				ai = no
 			}
 			THIS = { set_global_flag = statue_of_liberty_has_been_built }
