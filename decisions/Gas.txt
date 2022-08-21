@@ -11,14 +11,9 @@ political_decisions = {
 			}
 			effect = {
 				set_country_flag = gas_attacking
-				badboy = 15
 			}
 			ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				badboy = 0.5
-			}		
+			factor = 1		
 		}
 		}	
 }
