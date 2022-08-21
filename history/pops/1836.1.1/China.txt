@@ -12507,3 +12507,69 @@
 	}
 
 }
+
+3258 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 50
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 300
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 500
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 9000
+	}
+
+}
+
+3259 = {
+	aristocrats = {
+		culture = beifaren
+		religion = mahayana
+		size = 250
+	}
+
+	clergymen = {
+		culture = beifaren
+		religion = mahayana
+		size = 500
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1000
+	}
+
+	soldiers = {
+		culture = beifaren
+		religion = mahayana
+		size = 1400
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 30000
+	}
+
+}

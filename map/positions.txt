@@ -122737,3 +122737,97 @@
 
     text_scale = 0
 }
+
+3258 = {
+    text_scale = 0
+    unit = {
+        x = 4673.150000
+        y = 1436.100000
+    }
+
+    city = {
+        x = 4672.600000
+        y = 1436.050000
+    }
+
+    factory = {
+        x = 4672.800000
+        y = 1435.800000
+    }
+
+    building_construction = {
+        x = 4673.800000
+        y = 1435.850000
+    }
+
+    military_construction = {
+        x = 4672.650000
+        y = 1437.150000
+    }
+
+    building_position = {
+        fort = {
+            x = 4673.550000
+            y = 1436.250000
+        }
+
+        naval_base = {
+            x = 4674.050000
+            y = 1434.900000
+        }
+
+    }
+
+    building_rotation = {
+        fort = 5.315711
+        naval_base = 4.782625
+    }
+
+}
+
+3259 = {
+    text_scale = 0
+    unit = {
+        x = 4639.900000
+        y = 1415.600000
+    }
+
+    city = {
+        x = 4640.000000
+        y = 1416.150000
+    }
+
+    factory = {
+        x = 4639.800000
+        y = 1415.150000
+    }
+
+    building_construction = {
+        x = 4640.650000
+        y = 1414.800000
+    }
+
+    military_construction = {
+        x = 4639.700000
+        y = 1416.600000
+    }
+
+    building_position = {
+        fort = {
+            x = 4639.550000
+            y = 1415.500000
+        }
+
+        naval_base = {
+            x = 4641.100000
+            y = 1415.150000
+        }
+
+    }
+
+    building_rotation = {
+        fort = 0.140483
+        naval_base = 0.010050
+    }
+
+}
