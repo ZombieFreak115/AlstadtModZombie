@@ -1,0 +1,194 @@
+- Pensylvania has a port now (for some reason it didnt before)
+
+- Relocalized some tech text to more accurately show what bonuses they give (mining/farming output) (Still missing SOME such as "mining effiency, farming effiency etc)
+
+- Got rid of the old vassal release decision system, and got a more compact one
+
+- Increased the rate of internal, external and colonial migration by a decent amount (reduced migration malus from having factories in state, and increased emigration but reduced internal migration from unaccepted and non state religion pops, pops getting their everday and luxury needs make them a little less likely to emigrate)
+
+- Added some small promotion bonuses to pops getting their everyday and luxury needs
+
+- The India tag won't be able to be inherited with doctrine of lapse anymore
+
+- Hannover being released by event from UK is not depentent on UK sphereing it anymore, it now depends on if the UK has it puppeted
+
+- Put all utility, promotion and puppet release decisions under a new "hide all utility decisions" decision instead of them being seperated
+
+- Gave Ethiopia and sokoto more land (can only colonize that land before 1880 if you take ethiopian/sokoto land anyway)
+
+- Added a fix which makes 100% unemployment in newly colonised provinces not happen
+
+- Removed Canada core on Bangor
+
+- Buffed LF output bonus from 12% to 15%, and increased max tax from 50% to 75%
+
+- Made it so mobilizing in a crisis dosent increase it's tension
+
+- Added flag symbols to event title's that form a nation, cos why not
+
+- Implemented the decisions to take money from puppets (gives the overlord the puppet's money if they have over 100k)
+
+- Make the max national focuses not depend on total pop size anymore
+
+- Reduced the "nationalism" effect after you conquer uncored territory by half
+
+- Added a host decision to disable crisis (only regular crisies for now, not colonial ones), and new host decisions to giving naughty players sanctions and infamy
+
+- Made demotion from unemployment more linear, instead of 10% and 20% unemployment only giving 0.1, and 30% giving 0.5%, its now 0,2 0,2 0,3
+
+- Added a system to request military or industrial good "grants" from other players, unlocked when you research economic responsibillity, will not send unless both the sender has sufficent goods, and the recipient dosent have too much in stockpile
+
+- Gave a 5% input effiency bonus to free trade due to how shit it is
+
+- Created a new formable, the "South andes confederation" which is meant to be a formable for bolivia/peru/chile similar to gran columbia
+
+- Made Romaina not be releasable with CBs unless it already exists
+
+- Statue of liberty can be given to other nations than the U.S, France picks which NW nation gets it, dominions can't be chosen doe
+
+- Made most non-critical inventions 5% base chance to invent instead of 2%
+
+- Accepted no longer get a wierd malus to colonial migration, that only primary pops didn't get
+
+- Added decision for "fake war" to allow control of puppets in peacetime, or fix the bug where you can't control them in a war.
+
+- Added a decision to give unit transports to coastal puppets by using steamers/clippers in the overlords stockpile
+
+- Synthetic dyes and synthetic oil factories is now 100% invent chance
+
+- Gas attack not working properly is fixed now, and it dosen't cost infamy
+
+- Added the acquire all cores cb
+
+- Made a system to be able to tagswap anyone (including the host) to any other nation midgame
+
+- Split Java/Sumatra into more states and make dalmatia state make bit more sense
+
+- Added a decision to enable player vassals to declare independence even if they are fighting alongside their overlord in a ai war
+
+- Buffed liberty abit
+
+- WIP: adding the treaty port expansion
+
+- TODO: re-check if migration balance is ok
+
+- TODO: add basic chem to all civ'd nations
+
+- WIP: Added new pictures for host decisions (mostly done)
+
+- WIP: add more pops to underpopulated areas compared to irl, morocco and korea too? (DONE morocco, algeria and most of africa)
+
+- TODO: move radio to another tech?
+
+- TODO: increase oil province size in small oil provs? (arabia)
+
+- TODO: a rubber rgo overwrites a iron one in madingou
+
+- TODO: give all unciv reforms a tech
+
+- TODO: decision to toggle unaccepted craftsmen promotion
+
+- TODO: increase mine size from metallurgy techs more
+
+- TODO: nerf dreadnoughts
+
+- TODO: split java state into several smaller states, make dalmatia historical and not wierd?
+
+- TODO: remove cut down from GW cap?
+
+- TODO: decision for player to dec independence if they are a puppet and in a ai war with overlord
+
+- TODO: double the relative cost of take capital or more
+
+- TODO: reduce infamy cost from trucebreaking
+
+- TODO: lembley china?
+
+- TODO: add a small bit of W.E if you lose to ideology rebels
+
+- TODO: import some more inventions from igor, which increases RGO effiency overall?
+
+- TODO: buff LF more?
+
+- TODO: add zombies? with the host decisions?
+
+- TODO: Capitalists promotion/demotion with communists (when paychecks are 1)
+
+- TODO: reduce warscore in GWs
+
+- TODO: bigger penalty to migration to provs with unemployment?
+
+- TODO: coal province in sardengia, sulphur in spain?
+
+- TODO: reduce fuel cost for cruisers? (too much)
+
+- TODO: finsh currency regulation
+
+- TODO: nerf torpedo boats invention (Commerce raider)
+
+
+- TODO: add carriers?
+
+- TODO: spread out RGOs more?
+
+- TODO: move mob button to a better place (so it aint accidentially pressed)
+
+- TODO: patriots not releasing stuff unless it borders them?
+
+- TODO: iron/coal early game? (iron unemployment while steel factories are bottlenecked, coal?)
+
+- TODO: increase puppet influence bonus?
+
+- TODO: more colonial power (UK day1)
+
+- TODO: transfer costs infamy?
+
+- TODO: more troop speed with railraods?
+
+- TODO: increase starting money?
+
+- TODO: increase cruiser build time?
+
+- TODO: a war to make it so when a country is conquered, the conqerour gets the rest of the money?
+
+- TODO: slow down coring in UNACCEPTED states?
+
+- TODO: make japan more resistant to early conquest?
+
+- TODO: make germany pan-nats always go to prussia no matter if its gp or not
+
+- TODO: Increase duration of oil province gold rushes
+
+- TODO: reduce building time? of all buildings
+
+- TODO: Dyes abolished in nancy = iron prov?
+
+- TODO: artisan throughput reduction if occupied?
+
+- TODO: Lower min. unemployment required to swap dyes
+
+- TODO: remove Canada cores on new england (GUH?)
+
+- TODO: Reverse migration bonus from being GP with the one for democracy (swap em)
+
+- TODO: nerf early art sup abit?
+
+- TODO: increase external migration abit?
+
+- TODO: non intrusive revanchism? (more soldier promotion)
+
+- TODO: make "abandon finland" for sweden not taken by ai
+
+- TODO: guarrentie the UK will inherit the indian minors with the coal/iron before 1870
+
+- TODO: Buff U.S early game abit? how?
+
+- TODO: make take capital cost moar WS
+
+- TODO: nerf irregulars n cav in techs/invention
+
+- TODO: spreadsheet for unit stats
+
+- TODO: add a way for russia to get cores on outer manchuria if they dont sphere manchuria and take the decision
+
+- TODO: buff the gas cost?
