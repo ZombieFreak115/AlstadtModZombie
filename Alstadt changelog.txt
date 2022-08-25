@@ -24,8 +24,6 @@
 
 - Made it so mobilizing in a crisis dosent increase it's tension
 
-- Added flag symbols to event title's that form a nation, cos why not
-
 - Implemented the decisions to take money from puppets (gives the overlord the puppet's money if they have over 100k)
 
 - Make the max national focuses not depend on total pop size anymore
@@ -33,6 +31,8 @@
 - Reduced the "nationalism" effect after you conquer uncored territory by half
 
 - Added a host decision to disable crisis (only regular crisies for now, not colonial ones), and new host decisions to giving naughty players sanctions and infamy
+
+- Added flag symbols to event title's that form a nation, cos why not
 
 - Made demotion from unemployment more linear, instead of 10% and 20% unemployment only giving 0.1, and 30% giving 0.5%, its now 0,2 0,2 0,3
 
