@@ -82,7 +82,7 @@ country_migration_target =
 		is_greater_power = yes
 	}
 	modifier = {
-		factor = 1.1
+		factor = 1.2
 		government = democracy
 	}
 	modifier = {

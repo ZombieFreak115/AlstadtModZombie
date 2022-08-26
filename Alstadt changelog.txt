@@ -68,6 +68,8 @@
 
 - Buffed liberty abit
 
+- Buff migration attraction to democracies
+
 - WIP: adding the treaty port expansion
 
 - TODO: re-check if migration balance is ok
