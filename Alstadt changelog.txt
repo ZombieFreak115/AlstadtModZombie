@@ -72,6 +72,8 @@
 
 - Removed russian core on petsamo
 
+- Removed mil score from capital ships
+
 - WIP: adding the treaty port expansion
 
 - TODO: re-check if migration balance is ok
@@ -83,8 +85,6 @@
 - WIP: add more pops to underpopulated areas compared to irl, morocco and korea too? (DONE morocco, algeria and most of africa)
 
 - TODO: move radio to another tech?
-
-- TODO: remove score from capital ships
 
 - TODO: make naval ai only use 1 stack? (mati idea)
 
