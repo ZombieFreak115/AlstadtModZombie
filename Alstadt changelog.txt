@@ -80,6 +80,10 @@
 
 - TODO: move radio to another tech?
 
+- TODO: remove score from capital ships
+
+- TODO: make naval ai only use 1 stack? (mati idea)
+
 - TODO: increase oil province size in small oil provs? (arabia)
 
 - TODO: a rubber rgo overwrites a iron one in madingou
