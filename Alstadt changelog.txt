@@ -80,6 +80,8 @@
 
 - TODO: re-check if migration balance is ok
 
+- TODO: clean up unused files with winmerge before release
+
 - TODO: add basic chem to all civ'd nations
 
 - WIP: Added new pictures for host decisions (mostly done)
