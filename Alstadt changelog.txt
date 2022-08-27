@@ -76,6 +76,8 @@
 
 - WIP: adding the treaty port expansion
 
+- TODO: increase money hoarder maybe?
+
 - TODO: re-check if migration balance is ok
 
 - TODO: add basic chem to all civ'd nations
@@ -99,6 +101,8 @@
 - TODO: increase mine size from metallurgy techs more
 
 - TODO: nerf dreadnoughts
+
+- TODO: buff tanks n planes more?
 
 - TODO: split java state into several smaller states, make dalmatia historical and not wierd?
 
