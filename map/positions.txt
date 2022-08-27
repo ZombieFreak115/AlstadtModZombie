@@ -66504,36 +66504,52 @@
 # Weihaiwei
 1569 = {
     text_position = {
-        x = 4709.799805
-        y = 1385.500000
+        x = 4680.650000
+        y = 1260.550000
     }
 
-    text_scale = 2.000000
-    building_construction = {
-        x = 4713.000000
-        y = 1387.000000
+    text_rotation = 1.585795
+    text_scale = 0.600000
+    unit = {
+        x = 4680.650000
+        y = 1260.500000
+    }
+
+    city = {
+        x = 4681.300000
+        y = 1259.750000
     }
 
     factory = {
-        x = 4706.700195
-        y = 1386.000000
+        x = 4681.400000
+        y = 1262.100000
+    }
+
+    building_construction = {
+        x = 4679.750000
+        y = 1261.000000
+    }
+
+    military_construction = {
+        x = 4680.050000
+        y = 1258.750000
     }
 
     building_position = {
         fort = {
-            x = 4717.000000
-            y = 1389.000000
+            x = 4681.950000
+            y = 1262.700000
         }
 
         naval_base = {
-            x = 4706.000000
-            y = 1391.199951
+            x = 4683.100000
+            y = 1261.300000
         }
 
     }
 
     building_rotation = {
-        naval_base = 1.570797
+        naval_base = 3.146593
     }
 
 }
@@ -68287,17 +68303,22 @@
 
 # Ningbo
 1608 = {
+    text_position = {
+        x = 4700.950000
+        y = 1252.600000
+    }
+
+    text_scale = 2.000000
     unit = {
         x = 4703.000000
         y = 1254.000000
     }
 
-    text_position = {
-        x = 4702.000000
-        y = 1250.800049
+    factory = {
+        x = 4701.000000
+        y = 1256.900024
     }
 
-    text_scale = 2.600000
     building_construction = {
         x = 4699.399902
         y = 1251.099976
@@ -68306,11 +68327,6 @@
     military_construction = {
         x = 4703.700195
         y = 1250.000000
-    }
-
-    factory = {
-        x = 4701.000000
-        y = 1256.900024
     }
 
     building_position = {
@@ -122827,7 +122843,109 @@
 
     building_rotation = {
         fort = 0.140483
-        naval_base = 0.010050
+        naval_base = 3.146593
+    }
+
+}
+
+3260 = {
+    text_position = {
+        x = 4707.750000
+        y = 1253.550000
+    }
+
+    text_scale = 0.9
+    unit = {
+        x = 4707.600000
+        y = 1253.450000
+    }
+
+    city = {
+        x = 4708.000000
+        y = 1253.050000
+    }
+
+    factory = {
+        x = 4707.250000
+        y = 1254.250000
+    }
+
+    building_construction = {
+        x = 4707.550000
+        y = 1252.650000
+    }
+
+    military_construction = {
+        x = 4708.200000
+        y = 1252.550000
+    }
+
+    building_position = {
+        fort = {
+            x = 4705.450000
+            y = 1253.750000
+        }
+
+        naval_base = {
+            x = 4712.400000
+            y = 1253.600000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 3.141593
+    }
+
+}
+
+3261 = {
+    text_position = {
+        x = 4693.400000
+        y = 1222.600000
+    }
+
+    text_scale = 0.6
+    unit = {
+        x = 4693.250000
+        y = 1222.350000
+    }
+
+    city = {
+        x = 4694.000000
+        y = 1222.900000
+    }
+
+    factory = {
+        x = 4693.800000
+        y = 1222.350000
+    }
+
+    building_construction = {
+        x = 4694.200000
+        y = 1222.250000
+    }
+
+    military_construction = {
+        x = 4693.250000
+        y = 1223.150000
+    }
+
+    building_position = {
+        fort = {
+            x = 4692.250000
+            y = 1221.750000
+        }
+
+        naval_base = {
+            x = 4695.700000
+            y = 1221.350000
+        }
+
+    }
+
+    building_rotation = {
+        naval_base = 3.146593
     }
 
 }
