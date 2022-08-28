@@ -10,7 +10,8 @@ religion = mahayana
 government = absolute_monarchy
 plurality = 1
 nationalvalue = nv_order
-literacy = 0,022
+literacy = 0.022
+non_state_culture_literacy = 0.022
 prestige = 0
 schools = traditional_academic
 oob = "WEN.txt"
@@ -45,3 +46,5 @@ health_care = no_health_care
 school_reforms = no_schools
 
 set_country_flag = treaty_port_nation
+
+is_releasable_vassal = no

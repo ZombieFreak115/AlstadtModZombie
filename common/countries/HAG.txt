@@ -9,7 +9,7 @@ graphical_culture = ChineseGC
 #========================= P A R T I E S =========================
 
 party = {
-name = "HAN_conservative_92"
+name = "HAG_conservative_92"
 start_date = 1700.1.1
 end_date = 2000.1.1
 ideology = conservative
@@ -20,7 +20,7 @@ citizenship_policy = limited_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HAN_liberal_79"
+name = "HAG_liberal_79"
 start_date = 1750.1.1
 end_date = 2000.1.1
 ideology = liberal
@@ -31,7 +31,7 @@ citizenship_policy = limited_citizenship
 war_policy = anti_military
 }
 party = {
-name = "HAN_liberal_87"
+name = "HAG_liberal_87"
 start_date = 1800.1.1
 end_date = 2000.1.1
 ideology = liberal
@@ -42,7 +42,7 @@ citizenship_policy = limited_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HAN_socialist_84"
+name = "HAG_socialist_84"
 start_date = 1750.1.1
 end_date = 2000.1.1
 ideology = socialist
@@ -53,7 +53,7 @@ citizenship_policy = full_citizenship
 war_policy = anti_military
 }
 party = {
-name = "HAN_socialist_98"
+name = "HAG_socialist_98"
 start_date = 1800.1.1
 end_date = 2000.1.1
 ideology = socialist
@@ -64,7 +64,7 @@ citizenship_policy = limited_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HAN_reactionary_83"
+name = "HAG_reactionary_83"
 start_date = 1700.1.1
 end_date = 2000.1.1
 ideology = reactionary
@@ -75,7 +75,7 @@ citizenship_policy = residency
 war_policy = jingoism
 }
 party = {
-name = "HAN_anarcho_liberal_93"
+name = "HAG_anarcho_liberal_93"
 start_date = 1850.1.1
 end_date = 2000.1.1
 ideology = anarcho_liberal
@@ -86,7 +86,7 @@ citizenship_policy = full_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HAN_communist_86"
+name = "HAG_communist_86"
 start_date = 1850.1.1
 end_date = 2000.1.1
 ideology = communist
@@ -97,7 +97,7 @@ citizenship_policy = full_citizenship
 war_policy = pro_military
 }
 party = {
-name = "HAN_fascist_71"
+name = "HAG_fascist_71"
 start_date = 1850.1.1
 end_date = 2000.1.1
 ideology = fascist

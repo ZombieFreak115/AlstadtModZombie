@@ -1,7 +1,8 @@
-owner = CHI
-controller = CHI
+owner = HAG
+controller = HAG
 add_core = CHI
 add_core = TPG
+add_core = HAG
 trade_goods = tea
 life_rating = 32
 1861.1.1 = {

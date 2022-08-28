@@ -1,5 +1,6 @@
-owner = CHI
-controller = CHI
+owner = HAG
+controller = HAG
 add_core = CHI
+add_core = HAG
 trade_goods = grain
-life_rating = 32
+life_rating = 35
