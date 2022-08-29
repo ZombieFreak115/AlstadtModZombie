@@ -74,7 +74,7 @@
 
 - Removed mil score from capital ships
 
-- WIP: adding the treaty port expansion
+- WIP: adding the treaty port expansion, also made core chinese states un-conquerable
 
 - TODO: increase money hoarder maybe?
 

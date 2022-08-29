@@ -91,6 +91,8 @@ gunboat = {
 	crisis = no
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
@@ -168,6 +170,8 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -288,6 +292,9 @@ add_to_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { tag = CHI }
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -335,6 +342,8 @@ take_from_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -391,6 +400,8 @@ acquire_core_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -442,6 +453,8 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -493,6 +506,8 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -512,6 +527,23 @@ acquire_substate_region = {
 		any_owned_province = {
 			not = {	is_core = THIS }
 			is_colonial = no
+			NOT = {
+				region = CHI_1
+			}
+			NOT = { 
+				owned_by = QIN
+				owned_by = TIA
+				owned_by = QNG
+				owned_by = HUA
+				owned_by = SHA
+				owned_by = HAG
+				owned_by = NIN
+				owned_by = WEN
+				owned_by = FUZ
+				owned_by = HOG
+				owned_by = MAC
+				owned_by = BEI
+			}
 		}
 	}
 
@@ -551,6 +583,8 @@ acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -575,6 +609,9 @@ acquire_state = {
 		any_owned_province = {
 			not = {	is_core = THIS }
 			is_colonial = no
+			NOT = {
+				region = CHI_1
+			}
 		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
@@ -621,6 +658,8 @@ place_in_the_sun = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -718,6 +757,8 @@ cut_down_to_size = {
 	war_name = WAR_NAME
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -742,6 +783,8 @@ cut_down_to_size_boxer = {
 	crisis = no
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { is_our_vassal = THIS }
 		is_disarmed = no
 	}
@@ -796,6 +839,8 @@ free_peoples = {
 	
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -881,6 +926,8 @@ liberate_country = {
 	
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -966,6 +1013,8 @@ dismantle_forts = {
 	
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -1019,6 +1068,8 @@ release_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -1069,6 +1120,8 @@ make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -1128,6 +1181,8 @@ become_independent = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		is_our_vassal = THIS
 		NOT = { truce_with = THIS }
 	}
@@ -1195,6 +1250,8 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -1234,6 +1291,8 @@ demand_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -1247,6 +1306,9 @@ demand_concession_casus_belli = {
 	allowed_states = {
 		any_owned_province = {
 			is_colonial = no
+			NOT = {
+				region = CHI_1
+			}
 		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
@@ -1289,6 +1351,8 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -1349,6 +1413,8 @@ unification_humiliate_cb = {
 	always = yes
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1400,6 +1466,8 @@ unification_release_puppet_cb = {
 	always = yes
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		THIS = {
@@ -1460,6 +1528,8 @@ unification_casus_belli = {
 	always = yes
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1528,6 +1598,8 @@ unification_annex_casus_belli = {
 	always = yes
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1587,6 +1659,8 @@ rude_boy = {
 	always = yes
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -1630,6 +1704,8 @@ install_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		THIS = {
@@ -1710,6 +1786,8 @@ uninstall_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		THIS = {
@@ -1805,6 +1883,8 @@ negotiated_transfer = {
 	construction_speed = 2000.0
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		number_of_states = 2 # annex if you want their last state
@@ -1838,6 +1918,8 @@ conquest_low = {
 	crisis = no
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = {	total_pops = 400000 }
@@ -1917,6 +1999,8 @@ take_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -1946,6 +2030,9 @@ take_capital = {
 		any_owned_province = {
 			not = {	is_core = THIS }
 			is_colonial = no
+			NOT = {
+				region = CHI_1
+			}
 		}
 		any_owned_province = { is_capital = yes }
 	}
@@ -1993,6 +2080,8 @@ war_reparations = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		war_with = THIS
@@ -2019,15 +2108,15 @@ war_reparations = {
 
 #Treaty Port
 treaty_port_casus_belli = {
-	sprite_index = 1
+	sprite_index = 7
 	is_triggered_only = yes
 	months = 12
 	crisis = no
 
-	badboy_factor = 1
-	prestige_factor = 0.5
+	badboy_factor = 2.2
+	prestige_factor = 1
 	peace_cost_factor = 10
-	penalty_factor = 2
+	penalty_factor = 1
 
 	break_truce_prestige_factor = 4
 	break_truce_infamy_factor = 4
@@ -2041,39 +2130,45 @@ treaty_port_casus_belli = {
 	always = no
 
 	can_use = {
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
-		THIS = {
-			num_of_ports = 1
-			civilized = yes
-			NOT = { has_country_modifier = chinese_treaty_port }
-		}
-		civilized = no
-		num_of_cities = 2
 		OR = {
-			war_with = THIS
-			THIS = { NOT = { has_country_modifier = punitive_effects } }
+			tag = QIN
+			tag = TIA
+			tag = QNG
+			tag = HUA
+			tag = SHA
+			tag = HAG
+			tag = NIN
+			tag = WEN
+			tag = FUZ
+			tag = HOG
+			tag = MAC
+			tag = BEI
 		}
-		OR = {
-			THIS = { NOT = { war_policy = pacifism } }
-			THIS = { ai = no }
-		}
-		OR = {
-			owns = 1498 #Macao
-					owns = 1538 #Shanghai
-					owns = 1496 #Hong Kong
-					owns = 1566	#Qingdao
-					owns = 1481 #Lushun - Port Arthur
-					owns = 1569 #Weihaiwei
-					owns = 1606 #Jiaxing
-					owns = 2562 #Tainan
-					owns = 1499 #Hainan
-					owns = 1608 #Ningbo
+	}
+	allowed_states = {
+		any_owned_province = {
+			OR = {
+				province_id = 3263
+				province_id = 1498
+				province_id = 1496
+				province_id = 3262
+				province_id = 3261
+				province_id = 3260
+				province_id = 1569
+				province_id = 1538
+				province_id = 3264
+				province_id = 1566
+				province_id = 3259
+				province_id = 3258
+			}
 		}
 	}
 	
-	po_reparations = yes
+	po_demand_state = yes
 	
 	tws_battle_factor = 1.5
 	
@@ -2088,33 +2183,85 @@ treaty_port_casus_belli = {
 	}
 	
 	on_po_accepted = {
-		random_owned = {
-			limit = {
-				owner = {
-					civilized = no
-					OR = {
-						owns = 1498 #Macao
-						owns = 1538 #Shanghai
-						owns = 1496 #Hong Kong
-						owns = 1566	#Qingdao
-						owns = 1481 #Lushun - Port Arthur
-						owns = 1569 #Weihaiwei
-						owns = 1606 #Jiaxing
-						owns = 2562 #Tainan
-						owns = 1499 #Hainan
-						owns = 1608 #Ningbo
-					}
-				}
-				THIS = {
-					civilized = yes
-					NOT = { primary_culture = nanfaren }
-					NOT = { primary_culture = beifaren }
-					NOT = { primary_culture = manchu }
-					num_of_ports = 1
+
+	}
+}
+
+treaty_port_substate = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+	
+	badboy_factor = 2.2
+	prestige_factor = 1
+	peace_cost_factor = 10
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
+		NOT = { tag = UTI }
+		NOT = { tag = CLN }
+		NOT = { is_our_vassal = THIS }
+		num_of_substates = 1 # if has any substate
+		any_substate = {
+			any_owned_province = {
+				OR = {
+					province_id = 3263
+					province_id = 1498
+					province_id = 1496
+					province_id = 3262
+					province_id = 3261
+					province_id = 3260
+					province_id = 1569
+					province_id = 1538
+					province_id = 3264
+					province_id = 1566
+					province_id = 3259
+					province_id = 3258
 				}
 			}
-		owner = { add_country_modifier = { name = negotiating_unequal_treaty duration = 30 } }
-			THIS = { add_country_modifier = { name = negotiating_treaty duration = 30 } }
+		}
+	}
+	
+	allowed_substate_regions = {
+		any_owned_province = {
+			OR = {
+				province_id = 3263
+				province_id = 1498
+				province_id = 1496
+				province_id = 3262
+				province_id = 3261
+				province_id = 3260
+				province_id = 1569
+				province_id = 1538
+				province_id = 3264
+				province_id = 1566
+				province_id = 3259
+				province_id = 3258
+			}
+		}
+	}
+
+	po_demand_state = yes
+	
+	war_name = PUNITIVE_EXPEDITION_WAR_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
 		}
 	}
 }
@@ -2140,6 +2287,8 @@ demand_concession_capital = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -2161,6 +2310,9 @@ demand_concession_capital = {
 		any_owned_province = {
 			not = {	is_core = THIS }
 			is_colonial = no
+			NOT = {
+				region = CHI_1
+			}
 		}
 		any_owned_province = { is_capital = yes }
 	}
@@ -2208,6 +2360,8 @@ demand_concession_capital = {
 	construction_speed = 1000.0
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		is_independant = yes
@@ -2264,6 +2418,8 @@ seperate_truce = {
 	good_relation_militancy_factor = 0
 
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		war_with = THIS
 	}
 	
@@ -2302,6 +2458,8 @@ make_puppet_large = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -2362,6 +2520,8 @@ make_puppet_small = {
 	good_relation_militancy_factor = 1
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }
@@ -2416,6 +2576,8 @@ acquire_all_cores = {
 	
 	
 	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
 		NOT = { tag = UTI }
 		NOT = { tag = CLN }
 		NOT = { is_our_vassal = THIS }

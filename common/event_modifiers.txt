@@ -802,8 +802,9 @@ icon = 8
 }
 
 treaty_port = {
-	mine_rgo_size = 8
-	farm_rgo_size = 8
+	mine_rgo_size = 5
+	farm_rgo_size = 5
+	life_rating = 0.5
 	icon = 8
 }
 

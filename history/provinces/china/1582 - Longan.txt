@@ -3,5 +3,5 @@ controller = CHI
 add_core = CHI
 add_core = XBI
 add_core = YNN
-trade_goods = coal
+trade_goods = tea
 life_rating = 32

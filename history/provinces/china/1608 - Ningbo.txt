@@ -3,5 +3,5 @@ controller = NIN
 add_core = CHI
 add_core = GXI
 add_core = NIN
-trade_goods = timber
+trade_goods = iron
 life_rating = 32

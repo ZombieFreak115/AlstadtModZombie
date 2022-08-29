@@ -229,3 +229,13 @@ good_HC = {
 	global_population_growth = 0.001
 	icon = 19
 }
+
+treaty_port_country = {
+	trigger = {
+		exists = yes
+		has_country_flag = treaty_port_nation
+	}
+	mobilisation_size = -0.2
+	prestige = -5
+	icon = 19
+}

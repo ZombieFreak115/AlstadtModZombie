@@ -18,7 +18,7 @@ oob = "HAN.txt"
 
 #========================= H O U S E - O F - L O R D S =========================
 
-ruling_party = HAN_conservative_92
+ruling_party = HAG_conservative_92
 upper_house = {
 fascist = 0
 reactionary = 40
