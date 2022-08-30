@@ -74,7 +74,25 @@
 
 - Removed mil score from capital ships
 
-- WIP: adding the treaty port expansion, also made core chinese states un-conquerable
+- Added more money day1
+
+- Added a new treaty port system: taking treaty ports will now instantly put the respective economic area in your sphere, and civilize them instantly, allowing you to invest into them aswell as getting their resources. The treaty port itself will also become a gold province when taken with high migrant attraction
+
+- Taking japanese land whilst it is unciv is more expensive now
+
+- Increased japan's soldier pops day1, about 92 now
+
+- Buffed "Late" meiji restoration, it is now a straight upgrade from early, but requires you to be sphered
+
+- Removed cut down from GW penalty CB
+
+- Reduced the chance to core signficiantly if there isn't a plurality of accepted or primary culture in the province
+
+- Increased duration of the "gold rush" modifiers when a oil province spawns
+
+- Buffed the RGO capacity of arabian and caucus oil fields to be more powerfull
+
+- IMPORTANT TODO: clean up strait-related loc!
 
 - TODO: increase money hoarder maybe?
 
@@ -84,15 +102,11 @@
 
 - TODO: add basic chem to all civ'd nations
 
-- WIP: Added new pictures for host decisions (mostly done)
-
 - WIP: add more pops to underpopulated areas compared to irl, morocco and korea too? (DONE morocco, algeria and most of africa)
 
 - TODO: move radio to another tech?
 
 - TODO: make naval ai only use 1 stack? (mati idea)
-
-- TODO: increase oil province size in small oil provs? (arabia)
 
 - TODO: a rubber rgo overwrites a iron one in madingou
 
@@ -116,8 +130,6 @@
 
 - TODO: reduce infamy cost from trucebreaking
 
-- TODO: lembley china?
-
 - TODO: add a small bit of W.E if you lose to ideology rebels
 
 - TODO: import some more inventions from igor, which increases RGO effiency overall?
@@ -140,7 +152,6 @@
 
 - TODO: nerf torpedo boats invention (Commerce raider)
 
-
 - TODO: add carriers?
 
 - TODO: spread out RGOs more?
@@ -158,8 +169,6 @@
 - TODO: transfer costs infamy?
 
 - TODO: more troop speed with railraods?
-
-- TODO: increase starting money?
 
 - TODO: increase cruiser build time?
 

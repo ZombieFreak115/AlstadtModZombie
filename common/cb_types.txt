@@ -1308,6 +1308,7 @@ demand_concession_casus_belli = {
 			is_colonial = no
 			NOT = {
 				region = CHI_1
+				region = JAP_1
 			}
 		}
 		not = { any_owned_province = { is_capital = yes } }
@@ -1840,7 +1841,6 @@ great_war_penalty_cb = {
 	good_relation_infamy_factor = 1
 	good_relation_militancy_factor = 1
 
-	po_disarmament = yes
 	po_reparations = yes
 
 	war_name = WAR_NAME
@@ -1986,7 +1986,7 @@ take_capital = {
 	
 	badboy_factor = 3
 	prestige_factor = 10
-	peace_cost_factor = 1
+	peace_cost_factor = 2
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -2312,6 +2312,7 @@ demand_concession_capital = {
 			is_colonial = no
 			NOT = {
 				region = CHI_1
+				region = JAP_1
 			}
 		}
 		any_owned_province = { is_capital = yes }
@@ -2606,6 +2607,133 @@ acquire_all_cores = {
 	po_transfer_provinces = yes
 
 	war_name = WAR_ALL_CORES_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+demand_concession_casus_belli_japan = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 0
+	construction_speed = 0.5
+	crisis = no
+	
+	badboy_factor = 2.5
+	prestige_factor = 0.1
+	peace_cost_factor = 1.2
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+	
+	good_relation_prestige_factor = 0
+	good_relation_infamy_factor = 0
+	good_relation_militancy_factor = 0
+	
+	always = no
+
+	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
+		NOT = { tag = UTI }
+		NOT = { tag = CLN }
+		NOT = { is_our_vassal = THIS }
+		THIS = {
+			civilized = yes
+		}
+		civilized = no
+		number_of_states = 2
+	}
+	
+	allowed_states = {
+		any_owned_province = {
+			is_colonial = no
+			region = JAP_1
+		}
+		not = { any_owned_province = { is_capital = yes } }
+	}
+	
+	po_demand_state = yes
+	
+	war_name = WAR_CONCESSION_NAME
+
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.1
+		}
+	}
+}
+
+demand_concession_capital_japan = {
+	sprite_index = 7
+	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.3
+	
+	badboy_factor = 3.3
+	prestige_factor = 10
+	peace_cost_factor = 2
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 60
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { has_country_flag = treaty_port_nation }
+		NOT = { THIS = { has_country_flag = treaty_port_nation } }
+		NOT = { tag = UTI }
+		NOT = { tag = CLN }
+		NOT = { is_our_vassal = THIS }
+		number_of_states = 2 # annex if you want their last state
+		any_owned_province = {
+			not = { is_core = THIS }
+			is_colonial = no
+		}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = yes
+				}
+		   }
+	}
+	
+	allowed_states = {
+		is_colonial = no
+		any_owned_province = {
+			not = {	is_core = THIS }
+			is_colonial = no
+			region = JAP_1
+		}
+		any_owned_province = { is_capital = yes }
+	}
+	
+	allowed_states_in_crisis = {
+		any_owned_province = {
+			any_neighbor_province = {
+				owner = { tag = THIS }
+			}
+		}
+	}		
+
+	po_demand_state = yes
+	
+	war_name = WAR_CONCESSION_NAME
 	
 	on_add = {
 		move_issue_percentage = { 

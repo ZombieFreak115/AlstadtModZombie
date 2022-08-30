@@ -589,8 +589,17 @@ province_event = {
 	mean_time_to_happen = {
 		months = 200
 		modifier = {
-			factor = 0.7
+			factor = 0.6
 			is_primary_culture = yes
+		}
+		modifier = {
+			factor = 0.8
+			is_accepted_culture = yes
+		}
+		modifier = {
+			factor = 5
+				is_primary_culture = no
+				is_accepted_culture = no
 		}
 		modifier = {
 			factor = 0.8

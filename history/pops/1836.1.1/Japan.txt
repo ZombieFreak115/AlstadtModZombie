@@ -35,13 +35,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1275
+		size = 5100
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 113225
+		size = 109400
 	}
 
 	aristocrats = {
@@ -97,13 +97,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 975
+		size = 3900
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 87425
+		size = 84500
 	}
 
 	aristocrats = {
@@ -159,13 +159,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1025
+		size = 4100
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 92850
+		size = 89775
 	}
 
 	aristocrats = {
@@ -221,13 +221,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1075
+		size = 4300
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 97425
+		size = 94200
 	}
 
 	aristocrats = {
@@ -291,13 +291,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 100
+		size = 1000
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 9175
+		size = 8275
 	}
 
 	clergymen = {
@@ -371,13 +371,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 50
+		size = 1500
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 4650
+		size = 3250
 	}
 
 	clergymen = {
@@ -451,13 +451,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 75
+		size = 1125
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 7425
+		size = 6375
 	}
 
 	clergymen = {
@@ -551,13 +551,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1875
+		size = 7500
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 169275
+		size = 163650
 	}
 
 	aristocrats = {
@@ -613,13 +613,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 675
+		size = 2700
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 60075
+		size = 58050
 	}
 
 	aristocrats = {
@@ -675,13 +675,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 250
+		size = 1000
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 22775
+		size = 22025
 	}
 
 	aristocrats = {
@@ -737,13 +737,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 625
+		size = 2500
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 55525
+		size = 53650
 	}
 
 	aristocrats = {
@@ -885,13 +885,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 3075
+		size = 12300
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 167575
+		size = 158350
 	}
 
 	aristocrats = {
@@ -959,13 +959,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1600
+		size = 6400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 144700
+		size = 139900
 	}
 
 	aristocrats = {
@@ -1021,13 +1021,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1125
+		size = 4500
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 98675
+		size = 95300
 	}
 
 	aristocrats = {
@@ -1089,13 +1089,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 2350
+		size = 9400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 213250
+		size = 206200
 	}
 
 	aristocrats = {
@@ -1151,13 +1151,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1175
+		size = 4700
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 106400
+		size = 102875
 	}
 
 	aristocrats = {
@@ -1239,13 +1239,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 3575
+		size = 14300
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 362000
+		size = 351275
 	}
 
 	aristocrats = {
@@ -1301,13 +1301,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1875
+		size = 7500
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 169275
+		size = 163650
 	}
 
 	aristocrats = {
@@ -1393,13 +1393,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 3900
+		size = 15600
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 332250
+		size = 320550
 	}
 
 	aristocrats = {
@@ -1461,13 +1461,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 2100
+		size = 8400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 189300
+		size = 183000
 	}
 
 	aristocrats = {
@@ -1523,13 +1523,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1975
+		size = 7900
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 178375
+		size = 172450
 	}
 
 	aristocrats = {
@@ -1599,13 +1599,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1525
+		size = 6100
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 141925
+		size = 137350
 	}
 
 	aristocrats = {
@@ -1661,13 +1661,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1850
+		size = 7400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 166550
+		size = 161000
 	}
 
 	aristocrats = {
@@ -1723,13 +1723,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1275
+		size = 5100
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 115600
+		size = 111775
 	}
 
 	aristocrats = {
@@ -1785,13 +1785,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 650
+		size = 2600
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 59175
+		size = 57225
 	}
 
 	aristocrats = {
@@ -1847,13 +1847,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1475
+		size = 5900
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 133375
+		size = 128950
 	}
 
 	aristocrats = {
@@ -1911,13 +1911,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1100
+		size = 4400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 37650
+		size = 34350
 	}
 
 	aristocrats = {
@@ -1973,13 +1973,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1100
+		size = 4400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 68900
+		size = 65600
 	}
 
 	aristocrats = {
@@ -2047,13 +2047,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1225
+		size = 4900
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 110525
+		size = 106850
 	}
 
 	aristocrats = {
@@ -2123,13 +2123,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1175
+		size = 4700
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 105075
+		size = 101550
 	}
 
 	aristocrats = {
@@ -2185,13 +2185,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1050
+		size = 4200
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 93750
+		size = 90600
 	}
 
 	aristocrats = {
@@ -2247,13 +2247,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 575
+		size = 2300
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 50975
+		size = 49250
 	}
 
 	aristocrats = {
@@ -2309,13 +2309,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 700
+		size = 2800
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 63800
+		size = 61700
 	}
 
 	aristocrats = {
@@ -2371,13 +2371,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 650
+		size = 2600
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 57400
+		size = 55450
 	}
 
 	aristocrats = {
@@ -2433,13 +2433,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 1100
+		size = 4400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 89150
+		size = 85850
 	}
 
 	aristocrats = {
@@ -2495,13 +2495,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 650
+		size = 2600
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 59175
+		size = 57225
 	}
 
 	aristocrats = {
@@ -2577,13 +2577,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 2600
+		size = 10400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 230125
+		size = 222325
 	}
 
 	aristocrats = {
@@ -2639,13 +2639,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 700
+		size = 2800
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 62800
+		size = 60700
 	}
 
 	aristocrats = {
@@ -2707,13 +2707,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 2350
+		size = 9400
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 213875
+		size = 206825
 	}
 
 	aristocrats = {
@@ -2783,13 +2783,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 450
+		size = 1800
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 39930
+		size = 38580
 	}
 
 	bureaucrats = {
@@ -2845,13 +2845,13 @@
 	soldiers = {
 		culture = japanese
 		religion = mahayana
-		size = 200
+		size = 1000
 	}
 
 	farmers = {
 		culture = japanese
 		religion = mahayana
-		size = 18225
+		size = 17425
 	}
 
 }

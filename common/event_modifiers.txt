@@ -802,8 +802,8 @@ icon = 8
 }
 
 treaty_port = {
-	mine_rgo_size = 5
-	farm_rgo_size = 5
+	mine_rgo_size = 4
+	farm_rgo_size = 4
 	life_rating = 0.5
 	icon = 8
 }
@@ -1008,5 +1008,11 @@ send_90_artillery = {
 	icon = 5
 }
 send_100_artillery = {
+	icon = 5
+}
+
+high_yield_oil_fields = {
+	farm_rgo_size = 3
+	mine_rgo_size = 3
 	icon = 5
 }

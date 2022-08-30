@@ -18,7 +18,7 @@ treaty_port_casus_belli_desc;Force a country to hand over a treaty port.;;;;;;;;
 treaty_port_casus_belli_short;Acquire Treaty Port;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 treaty_port_casus_belli_setup;Force a country to hand over a treaty port.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
 treaty_port_substate;Acquire Substate Treaty Port;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-treaty_port_substatei_desc;Force a substate of the country to hand over a treaty port.;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+treaty_port_substate_desc;Force a substate of the country to hand over a treaty port.;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 treaty_port_substate_short;Acquire Substate Treaty Port;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 treaty_port_substate_setup;Force a substate of the country to hand over a treaty port.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;
 NORMAL_PUNITIVE_EXPEDITION_WAR_NAME;$ORDER$$FIRST$-$SECOND$ War;;;;;;;;;;;;;;;;;;;;x,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -28,3 +28,11 @@ NORMAL_PUNITIVE_EXPEDITION_WAR_NAME_ENG_QNG;$ORDER$Opium War;;;;;;;;;;;;;;;;;x,,
 3_way_transfer_desc;Transfer a state from the target to any player;Libérer un §Ypays§W de ses oppresseurs;Befreien Sie ein §YLand§W von seinen Unterdrückern.;;;;;;;;;;;x,,,
 3_way_transfer_short;$THIRD$ acquires $STATE$;$THIRD$ prend $STATE$;$THIRD$ erwirbt $STATE$;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
 3_way_transfer_setup;Transfers $STATE$ to $THIRD$ from $RECIPIENT$;Prendre $STATE$ à $RECIPIENT$ pour le rendre à $THIRD$;Geben Sie $STATE$ an $THIRD$ von $RECIPIENT$ zurück;;;;;;;;;;;;x;;;;;;;;;;;;;;,,,
+demand_concession_casus_belli_japan;Demand Japanese Concession;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+demand_concession_casus_belli_japan_desc;Force an uncivilized Japan to secede territory to form a colonial concession.;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+demand_concession_casus_belli_japan_setup;Demand that $RECIPIENT$ secede territory to form a colonial concession.;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+demand_concession_casus_belli_japan_short;Demand $STATE$;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+demand_concession_capital_japan;Demand Japanese Capital Concession;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+demand_concession_capital_japan_desc;Force an uncivilized Japan to secede their capital to form a colonial concession.;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+demand_concession_capital_japan_setup;Demand that $RECIPIENT$ secede their capital to form a colonial concession.;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+demand_concession_capital_japan_short;Demand $STATE$;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;;

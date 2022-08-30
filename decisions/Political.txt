@@ -186,6 +186,7 @@ political_decisions = {
 				name = meiji_restoration_boost
 				duration = -1
 			}
+			economic_reform = yes_land_reform
 		}
 	}
 	
