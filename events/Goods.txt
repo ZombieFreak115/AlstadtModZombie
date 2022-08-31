@@ -1922,6 +1922,7 @@ province_event = {
 			province_id = 1102
 			province_id = 1104
 			province_id = 1205
+			province_id = 1401
 		}
 		trade_goods = oil
 		NOT = { has_province_modifier = high_yield_oil_fields }

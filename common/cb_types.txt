@@ -66,6 +66,8 @@ dismantle_forts
 humiliate
 demand_concession_casus_belli
 demand_concession_capital
+demand_concession_casus_belli_japan
+demand_concession_capital_japan
 establish_protectorate_casus_belli
 unification_humiliate_cb
 unification_release_puppet_cb
@@ -1308,7 +1310,10 @@ demand_concession_casus_belli = {
 			is_colonial = no
 			NOT = {
 				region = CHI_1
-				region = JAP_1
+				AND = {
+					region = JAP_1
+					owned_by = JAP
+				}
 			}
 		}
 		not = { any_owned_province = { is_capital = yes } }
@@ -2312,7 +2317,10 @@ demand_concession_capital = {
 			is_colonial = no
 			NOT = {
 				region = CHI_1
-				region = JAP_1
+				AND = {
+					region = JAP_1
+					owned_by = JAP
+				}
 			}
 		}
 		any_owned_province = { is_capital = yes }
@@ -2657,6 +2665,7 @@ demand_concession_casus_belli_japan = {
 		any_owned_province = {
 			is_colonial = no
 			region = JAP_1
+			owned_by = JAP
 		}
 		not = { any_owned_province = { is_capital = yes } }
 	}
@@ -2719,6 +2728,7 @@ demand_concession_capital_japan = {
 			not = {	is_core = THIS }
 			is_colonial = no
 			region = JAP_1
+			owned_by = JAP
 		}
 		any_owned_province = { is_capital = yes }
 	}

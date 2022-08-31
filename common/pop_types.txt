@@ -601,14 +601,17 @@ colonialmigration_chance =
 		modifier = {
 			factor = 0.3
 			unemployment = 0.1
+			location = { controlled_by = owner }
 		}
 		modifier = {
 			factor = 0.3
 			unemployment = 0.2
+			location = { controlled_by = owner }
 		}
 		modifier = {
 			factor = 0.3
 			unemployment = 0.3
+			location = { controlled_by = owner }
 		}
 		
 	}
@@ -824,6 +827,7 @@ emigration_chance =
 		modifier = {
 			factor = 0.3
 			unemployment = 0.3
+			location = { controlled_by = owner }
 		}
 		
 	}

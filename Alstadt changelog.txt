@@ -1,6 +1,6 @@
 - Pensylvania has a port now (for some reason it didnt before)
 
-- Relocalized some tech text to more accurately show what bonuses they give (mining/farming output) (Still missing SOME such as "mining effiency, farming effiency etc)
+- Relocalized some tech text to more accurately show what bonuses they give (mining/farming output)
 
 - Got rid of the old vassal release decision system, and got a more compact one
 
@@ -90,9 +90,18 @@
 
 - Increased duration of the "gold rush" modifiers when a oil province spawns
 
-- Buffed the RGO capacity of arabian and caucus oil fields to be more powerfull
+- Buffed the RGO capacity of normally small but historicall powerfull oil fields (think arabian and caucus oil fields)
 
-- IMPORTANT TODO: clean up strait-related loc!
+- Removed colonial immigration from unemployment when the province is occupied, and lowered the same effect for emigration (to prevent massive pop loss to emigration when it is sieged)
+
+- Lowered the min. unemployment required to swap the dye RGOs
+
+- A.I no longer takes the concede finland decision by itself
+
+- increased the pops in africa n morocoo to reaslistic numbers (and actually makes it worth to take the congo, finally!)
+
+TODOs/maybes for future versions:
+
 
 - TODO: increase money hoarder maybe?
 
@@ -120,13 +129,7 @@
 
 - TODO: buff tanks n planes more?
 
-- TODO: split java state into several smaller states, make dalmatia historical and not wierd?
-
-- TODO: remove cut down from GW cap?
-
 - TODO: decision for player to dec independence if they are a puppet and in a ai war with overlord
-
-- TODO: double the relative cost of take capital or more
 
 - TODO: reduce infamy cost from trucebreaking
 
@@ -174,9 +177,6 @@
 
 - TODO: a war to make it so when a country is conquered, the conqerour gets the rest of the money?
 
-- TODO: slow down coring in UNACCEPTED states?
-
-- TODO: make japan more resistant to early conquest?
 
 - TODO: make germany pan-nats always go to prussia no matter if its gp or not
 
@@ -188,11 +188,6 @@
 
 - TODO: artisan throughput reduction if occupied?
 
-- TODO: Lower min. unemployment required to swap dyes
-
-- TODO: remove Canada cores on new england (GUH?)
-
-- TODO: Reverse migration bonus from being GP with the one for democracy (swap em)
 
 - TODO: nerf early art sup abit?
 
@@ -204,13 +199,7 @@
 
 - TODO: guarrentie the UK will inherit the indian minors with the coal/iron before 1870
 
-- TODO: Buff U.S early game abit? how?
-
-- TODO: make take capital cost moar WS
-
 - TODO: nerf irregulars n cav in techs/invention
-
-- TODO: spreadsheet for unit stats
 
 - TODO: add a way for russia to get cores on outer manchuria if they dont sphere manchuria and take the decision
 

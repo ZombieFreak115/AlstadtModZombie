@@ -457,13 +457,7 @@ political_decisions = {
 			set_country_flag = Conceded_Finland
 		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = {
-					average_militancy = 4
-				}
-			}
+			factor = 0
 		}
 	}
 	

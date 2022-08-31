@@ -165,9 +165,9 @@ demote_crafts_desc;Using this decision will demote all unaccepted craftsmen and 
 PROV3249;Eastern Baltic Sea;x
 UTI;Utility Tag;Utility Tag;Utility Tag;;Utility Tag;;;;;;;;;x;;;;
 UTI_ADJ;Fake;Fake;Fake;;Fake;;;;;;;;;x;;;;
-canal_notification;zCCanal Controlz!;;;;;;;;;;;;;
-land_crossing_notification;zCNon-Blockadeable Straitz!;;;;;;;;;;;;;
-sea_crossing_notification;zCBlockadeable Straitz!;;;;;;;;;;;;;
+canal_notification;Canal Control!;;;;;;;;;;;;;
+land_crossing_notification;Non-Blockadeable Strait!;;;;;;;;;;;;;
+sea_crossing_notification;Blockadeable Strait!;;;;;;;;;;;;;
 seperate_truce;Seperate Peace Truce;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;
 seperate_truce_desc;Adds a normal truce on the target on seperate peace;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;
 seperate_truce_short;Seperate Peace Truce;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;
