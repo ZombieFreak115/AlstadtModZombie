@@ -150,6 +150,42 @@ political_decisions = {
 			factor = 0
 			}
 		}
+	disable_crafts_promotion = {
+		alert = no
+		potential = {
+			NOT = { has_country_flag = disable_non_accepted_craftsmen }
+			has_country_flag = show_ex_decisions
+			ai = no
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			set_country_flag = disable_non_accepted_craftsmen	
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	enable_crafts_promotion = {
+		alert = no
+		potential = {
+			has_country_flag = disable_non_accepted_craftsmen
+			has_country_flag = show_ex_decisions
+			ai = no
+		}
+		
+		allow = {
+		}
+		
+		effect = {
+			clr_country_flag = disable_non_accepted_craftsmen	
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	disable_colonial_clergy = {
 		alert = no
 		picture = clergy_no

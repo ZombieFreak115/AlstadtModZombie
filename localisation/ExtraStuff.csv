@@ -621,3 +621,7 @@ CHI_1;Core China;Core China;Core China;;Core China;;;;;;;;;x
 JAP_1;Japan;Japan;Japan;;Japan;;;;;;;;;x
 high_yield_oil_fields;High-Yield Oil Fields;;;;;;;;;;;;;
 high_yield_oil_fields_desc;This oil field has reservoirs bigger than initially thought.;;;;;;;;;;;;;
+disable_crafts_promotion_title;Disable Unaccepted Craftsmen Promotion;;;;;;;;;;;
+disable_crafts_promotion_desc;Clicking this decision will toggle off unaccepted pops from promotion to craftsmen, untill you turn it back on again.;;;;;;;;;;;
+enable_crafts_promotion_title;Enable Unaccepted Craftsmen Promotion;;;;;;;;;;;
+enable_crafts_promotion_desc;Clicking this decision will toggle on unaccepted pops from promotion to craftsmen, untill you turn it back off again.;;;;;;;;;;;

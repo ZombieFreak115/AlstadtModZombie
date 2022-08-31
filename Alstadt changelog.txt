@@ -100,14 +100,18 @@
 
 - increased the pops in africa n morocoo to reaslistic numbers (and actually makes it worth to take the congo, finally!)
 
+- Made a toggle decision to turn unaccepted craftsmen promotion on/off
+
+- Created another iron province in mainland France
+
+- Gave a coal province to Sardingia, and a small ish sulfur province to Spain
+
 TODOs/maybes for future versions:
 
 
 - TODO: increase money hoarder maybe?
 
 - TODO: re-check if migration balance is ok
-
-- TODO: clean up unused files with winmerge before release
 
 - TODO: add basic chem to all civ'd nations
 
@@ -204,3 +208,8 @@ TODOs/maybes for future versions:
 - TODO: add a way for russia to get cores on outer manchuria if they dont sphere manchuria and take the decision
 
 - TODO: buff the gas cost?
+
+- todo: "mob slider" mechanic?
+
+- todo: swap nvs?
+
