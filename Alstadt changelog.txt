@@ -19,11 +19,11 @@ TODOs/maybes for future versions:
 
 - TODO: give all unciv reforms a tech
 
-- TODO: decision to toggle unaccepted craftsmen promotion
-
 - TODO: increase mine size from metallurgy techs more
 
 - TODO: nerf dreadnoughts
+
+- TODO: puppet grant system?
 
 - TODO: buff tanks n planes more?
 
@@ -92,8 +92,6 @@ TODOs/maybes for future versions:
 - TODO: increase external migration abit?
 
 - TODO: non intrusive revanchism? (more soldier promotion)
-
-- TODO: make "abandon finland" for sweden not taken by ai
 
 - TODO: guarrentie the UK will inherit the indian minors with the coal/iron before 1870
 
