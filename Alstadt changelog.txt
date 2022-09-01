@@ -75,6 +75,7 @@ TODOs/maybes for future versions:
 
 - TODO: a war to make it so when a country is conquered, the conqerour gets the rest of the money?
 
+- TODO: increase colony soldier brig multiplier?
 
 - TODO: make germany pan-nats always go to prussia no matter if its gp or not
 
