@@ -3,11 +3,27 @@
 TODOs/maybes for future versions:
 
 
+- TODO: more starting factories n industry?
+
+- TODO: "colonial migration" specific NF?
+
+- TODO: nerf equality?
+
+- TODO: add prussia to the list of countries that will always gutter crown even if not GP
+
+- TODO: 5% for the rest of the inventions (naval for example)
+
+- TODO: more money generation?
+
 - TODO: increase money hoarder maybe?
 
 - TODO: re-check if migration balance is ok
 
 - TODO: add basic chem to all civ'd nations
+
+- TODO: maybe increase the factory drawdown(and up)
+
+- TODO: beihai port is wrong direction
 
 - WIP: add more pops to underpopulated areas compared to irl, morocco and korea too? (DONE morocco, algeria and most of africa)
 
@@ -24,6 +40,8 @@ TODOs/maybes for future versions:
 - TODO: nerf dreadnoughts
 
 - TODO: puppet grant system?
+
+- TODO: dye in china maybe?
 
 - TODO: buff tanks n planes more?
 
