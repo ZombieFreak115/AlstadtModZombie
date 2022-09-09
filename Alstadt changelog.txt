@@ -9,6 +9,8 @@ TODOs/maybes for future versions:
 
 - TODO: nerf equality?
 
+- TODO: more day1 art factories?
+
 - TODO: add prussia to the list of countries that will always gutter crown even if not GP
 
 - TODO: 5% for the rest of the inventions (naval for example)
