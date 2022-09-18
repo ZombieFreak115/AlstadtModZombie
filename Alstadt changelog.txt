@@ -9,7 +9,11 @@ TODOs/maybes for future versions:
 
 - TODO: nerf equality?
 
-- TODO: more day1 art factories?
+- TODO: increase the soldier penalty for colonies in defines
+
+- todo: make treaty port nations unable to loan money, and refund all ai nations when they get a disease effect that costs moneys
+
+- TODO: more day1 art factories/better industry day1 in general?
 
 - TODO: add prussia to the list of countries that will always gutter crown even if not GP
 
@@ -26,6 +30,10 @@ TODOs/maybes for future versions:
 - TODO: maybe increase the factory drawdown(and up)
 
 - TODO: beihai port is wrong direction
+
+- todo: no high liberal % at start in aussie upper house?
+
+- TODO: uk starts with all mutually exclusive market structure inventions?
 
 - WIP: add more pops to underpopulated areas compared to irl, morocco and korea too? (DONE morocco, algeria and most of africa)
 
