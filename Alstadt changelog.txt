@@ -3,6 +3,8 @@
 TODOs/maybes for future versions:
 
 
+- IMPORTANT: the puppet research reduction is 75%, not 25%?
+
 - TODO: more starting factories n industry?
 
 - TODO: "colonial migration" specific NF?
