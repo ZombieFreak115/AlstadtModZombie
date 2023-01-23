@@ -11,6 +11,8 @@ TODOs/maybes for future versions:
 
 - BUGFIX: oklahoma gold rush is infinite
 
+- todo: use processed goods more than raw goods in factories
+
 - TODO: buff cruisers so they are close to being as good as battleships
 
 - TODO: "disable crisis" not working?
