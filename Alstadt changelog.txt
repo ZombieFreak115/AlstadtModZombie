@@ -5,6 +5,16 @@ TODOs/maybes for future versions:
 
 - IMPORTANT: the puppet research reduction is 75%, not 25%?
 
+- IMPORTANT: fix cement iron maintenance, replace it with smth else
+
+- TODO: Lend-lease not working?
+
+- BUGFIX: oklahoma gold rush is infinite
+
+- TODO: buff cruisers so they are close to being as good as battleships
+
+- TODO: "disable crisis" not working?
+
 - TODO: more starting factories n industry?
 
 - TODO: "colonial migration" specific NF?
@@ -16,6 +26,8 @@ TODOs/maybes for future versions:
 - todo: make treaty port nations unable to loan money, and refund all ai nations when they get a disease effect that costs moneys
 
 - TODO: more day1 art factories/better industry day1 in general?
+
+- TODO: more migration to countries with more states? (prevent smaller countries from getting equal migration to big ones)
 
 - TODO: add prussia to the list of countries that will always gutter crown even if not GP
 
@@ -132,7 +144,7 @@ TODOs/maybes for future versions:
 
 - TODO: buff the gas cost?
 
-- todo: "mob slider" mechanic?
+- todo: "mob slider" mechanic? (and increasing mob into the 1900s)
 
 - todo: swap nvs?
 
