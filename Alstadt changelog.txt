@@ -9,6 +9,10 @@ TODOs/maybes for future versions:
 
 - TODO: Lend-lease not working?
 
+- bigger stockpiles?
+
+- reduce america rgo size bonus
+
 - BUGFIX: oklahoma gold rush is infinite
 
 - todo: use processed goods more than raw goods in factories
