@@ -75,8 +75,6 @@ TODOs/maybes for future versions:
 
 - TODO: a rubber rgo overwrites a iron one in madingou
 
-- TODO: give all unciv reforms a tech
-
 - TODO: increase mine size from metallurgy techs more
 
 - TODO: nerf dreadnoughts
@@ -132,8 +130,6 @@ TODOs/maybes for future versions:
 - TODO: more troop speed with railraods?
 
 - TODO: increase cruiser build time?
-
-- TODO: a war to make it so when a country is conquered, the conqerour gets the rest of the money?
 
 - TODO: increase colony soldier brig multiplier?
 
