@@ -1,11 +1,25 @@
 
+1.8.1 changes:
+
+- Made fabric not require dyes, the dyes are needed to produce the clothes instead (clippers no longer requires dye basically)
+
+- gave more unciv reforms techs, and ensured you keep the techs after westernization (rehost at some point to be sure)
+
+- Infamy decay diffrence between war and peace is less extreme
+
+- paper/furnichure requires lumber instead of timer
+
+- cement factories no longer requires iron as a maintenace good, it requires extra machine parts instead
+
+- fixed the puppet tech bonus being too OP
+
+- Reduced amount of infamy from trucebreaking on core CBs
+
+
 
 TODOs/maybes for future versions:
 
 
-- IMPORTANT: the puppet research reduction is 75%, not 25%?
-
-- IMPORTANT: fix cement iron maintenance, replace it with smth else
 
 - TODO: Lend-lease not working?
 
@@ -14,8 +28,6 @@ TODOs/maybes for future versions:
 - reduce america rgo size bonus
 
 - BUGFIX: oklahoma gold rush is infinite
-
-- todo: use processed goods more than raw goods in factories
 
 - TODO: buff cruisers so they are close to being as good as battleships
 
@@ -132,9 +144,6 @@ TODOs/maybes for future versions:
 - TODO: reduce building time? of all buildings
 
 - TODO: Dyes abolished in nancy = iron prov?
-
-- TODO: artisan throughput reduction if occupied?
-
 
 - TODO: nerf early art sup abit?
 
