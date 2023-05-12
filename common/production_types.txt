@@ -411,7 +411,7 @@ artillery_factory = {
 clipper_shipyard = {       
 	template = factory_template
 	input_goods = {         
-		fabric = 100		#162
+		fabric = 150		#162
 		lumber = 100		#90
 		steel = 30		#141		total input+maint = 393
 	}
@@ -487,6 +487,7 @@ regular_clothes_factory = {
 	template = factory_template
 	input_goods = {  
 		fabric = 40		#18	total input+maint = 72
+		dye = 2.4
 	}
 	output_goods = regular_clothes 
 	value = 15			#87
@@ -632,8 +633,7 @@ lumber_mill = {
 fabric_factory = {       
 	template = factory_template
 	input_goods = {     
-		cotton = 18		
-		dye = 2			
+		cotton = 18			
 	}
 	output_goods = fabric 
 	value = 45			#81
@@ -1142,7 +1142,7 @@ artisan_artillery = {
 
 artisan_clipper = {       
 	input_goods = {         
-		fabric = 100		#162
+		fabric = 150		#162
 		lumber = 100		#90
 		steel = 30		#141		total input+maint = 393
 	}
@@ -1218,7 +1218,8 @@ artisan_paper = {
 
 artisan_regular_clothes = {       
 	input_goods = {  
-		fabric = 40		#72	total input+maint = 72
+		fabric = 40
+		dye = 2.4		#72	total input+maint = 72
 	}
 	output_goods = regular_clothes 
 	value = 15			#87
@@ -1351,8 +1352,7 @@ artisan_lumber = {
 
 artisan_fabric = {       
 	input_goods = {     
-		cotton = 18		
-		dye = 2			
+		cotton = 18			
 	}
 	output_goods = fabric 
 	value = 45			#81
