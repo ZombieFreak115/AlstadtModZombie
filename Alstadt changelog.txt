@@ -17,9 +17,27 @@
 
 
 
+
+
 TODOs/maybes for future versions:
 
+- TODO: port of medan does not let ships dock there
 
+- TODO: buffs/penalties for funding/not funding admin?
+
+- TODO: make uncivs that start with certain reforms also start with the techs that corrospond with said reforms
+
+- TODO: add decision to go republic from constitional monarchy
+
+- TODO: make treaty port nations unsphereable unless someone owns it
+
+- TODO: add clipper factories in more places (France etc)
+
+- TODO: maybe lower amount of fabric requires for clippers
+
+- TODO: mechanics to allow 2 italy players?
+
+- TODO: make the puppetted nation remove all alliances if they are puppeted?
 
 - TODO: Lend-lease not working?
 
@@ -41,7 +59,7 @@ TODOs/maybes for future versions:
 
 - TODO: increase the soldier penalty for colonies in defines
 
-- todo: make treaty port nations unable to loan money, and refund all ai nations when they get a disease effect that costs moneys
+- todo: make treaty port nations unable to loan money (loan_amount = -1), and refund all ai nations when they get a disease effect that costs moneys
 
 - TODO: more day1 art factories/better industry day1 in general?
 
@@ -86,8 +104,6 @@ TODOs/maybes for future versions:
 - TODO: buff tanks n planes more?
 
 - TODO: decision for player to dec independence if they are a puppet and in a ai war with overlord
-
-- TODO: reduce infamy cost from trucebreaking
 
 - TODO: add a small bit of W.E if you lose to ideology rebels
 
