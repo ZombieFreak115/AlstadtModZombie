@@ -126,102 +126,538 @@ country_event = {
 		name = "Send nothing"
 	}
 	option = {
-		name = "Send 100 Artillery"
+		name = "Send up to 100 Artillery"
 		random_country = {
 			limit = {
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
+			}
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
 				tag = FROM
 				NOT = { artillery = 1901 }
 				THIS = { artillery = 100 }
 			}
 			THIS = { artillery = -100 }
 			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 300 Artillery"
+		name = "Send up to 300 Artillery"
 		random_country = {
 			limit = {
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
+			}
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
 				tag = FROM
 				NOT = { artillery = 1701 }
 				THIS = { artillery = 300 }
 			}
 			THIS = { artillery = -300 }
 			artillery = 300
-		
+			THIS = { set_country_flag = cant_send_goods }
 		}
-	}
-	option = {
-		name = "Send 500 Artillery"
+		
 		random_country = {
 			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
+	}
+	option = {
+		name = "Send up to 500 Artillery"
+		
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
+			}
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
 				tag = FROM
 				NOT = { artillery = 1501 }
 				THIS = { artillery = 500 }
 			}
 			THIS = { artillery = -500 }
 			artillery = 500
-		
+			THIS = { set_country_flag = cant_send_goods }
 		}
-	}
-	option = {
-		name = "Send 700 Artillery"
+		
 		random_country = {
 			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
+	}
+	option = {
+		name = "Send up to 700 Artillery"
+		
+		random_country = {
+			limit = {
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
+			}
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
 				tag = FROM
 				NOT = { artillery = 1301 }
 				THIS = { artillery = 700 }
 			}
 			THIS = { artillery = -700 }
 			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 900 Artillery"
-		FROM = {
+		name = "Send up to 900 Artillery"
+		random_country = {
 			limit = {
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
+			}
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
 				NOT = { artillery = 1101 }
 				THIS = { artillery = 900 }
 			}
 			THIS = { artillery = -900 }
-			FROM = { artillery = 900 }
-		
+			artillery = 900
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 1200 Artillery"
-		FROM = {
+		name = "Send up to 1200 Artillery"
+		random_country = {
 			limit = {
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
+			}
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
 				NOT = { artillery = 801 }
 				THIS = { artillery = 1200 }
 			}
 			THIS = { artillery = -1200 }
-			FROM = { artillery = 1200 }
-		
+			artillery = 1200
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1101 }
+				THIS = { artillery = 900 }
+			}
+			THIS = { artillery = -900 }
+			artillery = 900
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 1500 Artillery"
-		FROM = {
+		name = "Send up to 1500 Artillery"
+		random_country = {
 			limit = {
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
+			}
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
 				NOT = { artillery = 501 }
 				THIS = { artillery = 1500 }
 			}
 			THIS = { artillery = -1500 }
-			FROM = { artillery = 1500 }
-		
+			artillery = 1500
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 801 }
+				THIS = { artillery = 1200 }
+			}
+			THIS = { artillery = -1200 }
+			artillery = 1200
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1101 }
+				THIS = { artillery = 900 }
+			}
+			THIS = { artillery = -900 }
+			artillery = 900
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 1800 Artillery"
-		FROM = {
+		name = "Send up to 1800 Artillery"
+		random_country = {
 			limit = {
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
+			}
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
 				NOT = { artillery = 201 }
 				THIS = { artillery = 1800 }
 			}
 			THIS = { artillery = -1800 }
-			FROM = { artillery = 1800 }
-		
+			artillery = 1800
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 501 }
+				THIS = { artillery = 1500 }
+			}
+			THIS = { artillery = -1500 }
+			artillery = 1500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 801 }
+				THIS = { artillery = 1200 }
+			}
+			THIS = { artillery = -1200 }
+			artillery = 1200
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1101 }
+				THIS = { artillery = 900 }
+			}
+			THIS = { artillery = -900 }
+			artillery = 900
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 }
 
@@ -236,102 +672,538 @@ country_event = {
 		name = "Send nothing"
 	}
 	option = {
-		name = "Send 100 Small Arms"
+		name = "Send up to 100 Small Arms"
 		random_country = {
 			limit = {
 				tag = FROM
-				NOT = { small_arms = 1901 }
-				THIS = { small_arms = 100 }
+				NOT = { THIS = { artillery = 100 } }
 			}
-			THIS = { small_arms = -100 }
-			small_arms = 100
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 300 Small Arms"
+		name = "Send up to 300 Artillery"
 		random_country = {
 			limit = {
 				tag = FROM
-				NOT = { small_arms = 1701 }
-				THIS = { small_arms = 300 }
+				NOT = { THIS = { artillery = 100 } }
 			}
-			THIS = { small_arms = -300 }
-			small_arms = 300
-		
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 500 Small Arms"
+		name = "Send up to 500 Artillery"
+		
 		random_country = {
 			limit = {
 				tag = FROM
-				NOT = { small_arms = 1501 }
-				THIS = { small_arms = 500 }
+				NOT = { THIS = { artillery = 100 } }
 			}
-			THIS = { small_arms = -500 }
-			small_arms = 500
-		
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 700 Small Arms"
+		name = "Send up to 700 Artillery"
+		
 		random_country = {
 			limit = {
 				tag = FROM
-				NOT = { small_arms = 1301 }
-				THIS = { small_arms = 700 }
+				NOT = { THIS = { artillery = 100 } }
 			}
-			THIS = { small_arms = -700 }
-			small_arms = 700
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 900 Small Arms"
-		FROM = {
+		name = "Send up to 900 Artillery"
+		random_country = {
 			limit = {
-				NOT = { small_arms = 1101 }
-				THIS = { small_arms = 900 }
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
 			}
-			THIS = { small_arms = -900 }
-			FROM = { small_arms = 900 }
-		
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1101 }
+				THIS = { artillery = 900 }
+			}
+			THIS = { artillery = -900 }
+			artillery = 900
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 1200 Small Arms"
-		FROM = {
+		name = "Send up to 1200 Artillery"
+		random_country = {
 			limit = {
-				NOT = { small_arms = 801 }
-				THIS = { small_arms = 1200 }
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
 			}
-			THIS = { small_arms = -1200 }
-			FROM = { small_arms = 1200 }
-		
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 801 }
+				THIS = { artillery = 1200 }
+			}
+			THIS = { artillery = -1200 }
+			artillery = 1200
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1101 }
+				THIS = { artillery = 900 }
+			}
+			THIS = { artillery = -900 }
+			artillery = 900
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 1500 Small Arms"
-		FROM = {
+		name = "Send up to 1500 Artillery"
+		random_country = {
 			limit = {
-				NOT = { small_arms = 501 }
-				THIS = { small_arms = 1500 }
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
 			}
-			THIS = { small_arms = -1500 }
-			FROM = { small_arms = 1500 }
-		
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 501 }
+				THIS = { artillery = 1500 }
+			}
+			THIS = { artillery = -1500 }
+			artillery = 1500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 801 }
+				THIS = { artillery = 1200 }
+			}
+			THIS = { artillery = -1200 }
+			artillery = 1200
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1101 }
+				THIS = { artillery = 900 }
+			}
+			THIS = { artillery = -900 }
+			artillery = 900
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 	option = {
-		name = "Send 1800 Small Arms"
-		FROM = {
+		name = "Send up to 1800 Artillery"
+		random_country = {
 			limit = {
-				NOT = { small_arms = 201 }
-				THIS = { small_arms = 1800 }
+				tag = FROM
+				NOT = { THIS = { artillery = 100 } }
 			}
-			THIS = { small_arms = -1800 }
-			FROM = { small_arms = 1800 }
-		
+			THIS = { country_event = 50010 }
+			THIS = { set_country_flag = cant_send_goods }
 		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 201 }
+				THIS = { artillery = 1800 }
+			}
+			THIS = { artillery = -1800 }
+			artillery = 1800
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 501 }
+				THIS = { artillery = 1500 }
+			}
+			THIS = { artillery = -1500 }
+			artillery = 1500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 801 }
+				THIS = { artillery = 1200 }
+			}
+			THIS = { artillery = -1200 }
+			artillery = 1200
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1101 }
+				THIS = { artillery = 900 }
+			}
+			THIS = { artillery = -900 }
+			artillery = 900
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1301 }
+				THIS = { artillery = 700 }
+			}
+			THIS = { artillery = -700 }
+			artillery = 700
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1501 }
+				THIS = { artillery = 500 }
+			}
+			THIS = { artillery = -500 }
+			artillery = 500
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1701 }
+				THIS = { artillery = 300 }
+			}
+			THIS = { artillery = -300 }
+			artillery = 300
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		
+		random_country = {
+			limit = {
+				NOT = { THIS = { has_country_flag = cant_send_goods } }
+				tag = FROM
+				NOT = { artillery = 1901 }
+				THIS = { artillery = 100 }
+			}
+			THIS = { artillery = -100 }
+			artillery = 100
+			THIS = { set_country_flag = cant_send_goods }
+		}
+		clr_country_flag = cant_send_goods
 	}
 }
 
@@ -404,7 +1276,7 @@ country_event = {
 				THIS = { canned_food = 900 }
 			}
 			THIS = { canned_food = -900 }
-			FROM = { canned_food = 900 }
+			canned_food = 900
 		
 		}
 	}
@@ -416,7 +1288,7 @@ country_event = {
 				THIS = { canned_food = 1200 }
 			}
 			THIS = { canned_food = -1200 }
-			FROM = { canned_food = 1200 }
+			canned_food = 1200
 		
 		}
 	}
@@ -428,7 +1300,7 @@ country_event = {
 				THIS = { canned_food = 1500 }
 			}
 			THIS = { canned_food = -1500 }
-			FROM = { canned_food = 1500 }
+			canned_food = 1500
 		
 		}
 	}
@@ -440,7 +1312,7 @@ country_event = {
 				THIS = { canned_food = 1800 }
 			}
 			THIS = { canned_food = -1800 }
-			FROM = { canned_food = 1800 }
+			canned_food = 1800
 		
 		}
 	}
@@ -515,7 +1387,7 @@ country_event = {
 				THIS = { ammunition = 900 }
 			}
 			THIS = { ammunition = -900 }
-			FROM = { ammunition = 900 }
+			ammunition = 900
 		
 		}
 	}
@@ -527,7 +1399,7 @@ country_event = {
 				THIS = { ammunition = 1200 }
 			}
 			THIS = { ammunition = -1200 }
-			FROM = { ammunition = 1200 }
+			ammunition = 1200
 		
 		}
 	}
@@ -539,7 +1411,7 @@ country_event = {
 				THIS = { ammunition = 1500 }
 			}
 			THIS = { ammunition = -1500 }
-			FROM = { ammunition = 1500 }
+			ammunition = 1500
 		
 		}
 	}
@@ -551,7 +1423,7 @@ country_event = {
 				THIS = { ammunition = 1800 }
 			}
 			THIS = { ammunition = -1800 }
-			FROM = { ammunition = 1800 }
+			ammunition = 1800
 		
 		}
 	}
@@ -626,7 +1498,7 @@ country_event = {
 				THIS = { clipper_convoy = 900 }
 			}
 			THIS = { clipper_convoy = -900 }
-			FROM = { clipper_convoy = 900 }
+			clipper_convoy = 900
 		
 		}
 	}
@@ -638,7 +1510,7 @@ country_event = {
 				THIS = { clipper_convoy = 1200 }
 			}
 			THIS = { clipper_convoy = -1200 }
-			FROM = { clipper_convoy = 1200 }
+			clipper_convoy = 1200
 		
 		}
 	}
@@ -650,7 +1522,7 @@ country_event = {
 				THIS = { clipper_convoy = 1500 }
 			}
 			THIS = { clipper_convoy = -1500 }
-			FROM = { clipper_convoy = 1500 }
+			clipper_convoy = 1500
 		
 		}
 	}
@@ -662,7 +1534,7 @@ country_event = {
 				THIS = { clipper_convoy = 1800 }
 			}
 			THIS = { clipper_convoy = -1800 }
-			FROM = { clipper_convoy = 1800 }
+			clipper_convoy = 1800
 		
 		}
 	}
@@ -737,7 +1609,7 @@ country_event = {
 				THIS = { steamer_convoy = 900 }
 			}
 			THIS = { steamer_convoy = -900 }
-			FROM = { steamer_convoy = 900 }
+			steamer_convoy = 900
 		
 		}
 	}
@@ -749,7 +1621,7 @@ country_event = {
 				THIS = { steamer_convoy = 1200 }
 			}
 			THIS = { steamer_convoy = -1200 }
-			FROM = { steamer_convoy = 1200 }
+			steamer_convoy = 1200
 		
 		}
 	}
@@ -761,7 +1633,7 @@ country_event = {
 				THIS = { steamer_convoy = 1500 }
 			}
 			THIS = { steamer_convoy = -1500 }
-			FROM = { steamer_convoy = 1500 }
+			steamer_convoy = 1500
 		
 		}
 	}
@@ -773,7 +1645,7 @@ country_event = {
 				THIS = { steamer_convoy = 1800 }
 			}
 			THIS = { steamer_convoy = -1800 }
-			FROM = { steamer_convoy = 1800 }
+			steamer_convoy = 1800
 		
 		}
 	}
@@ -848,7 +1720,7 @@ country_event = {
 				THIS = { fuel = 900 }
 			}
 			THIS = { fuel = -900 }
-			FROM = { fuel = 900 }
+			fuel = 900
 		
 		}
 	}
@@ -860,7 +1732,7 @@ country_event = {
 				THIS = { fuel = 1200 }
 			}
 			THIS = { fuel = -1200 }
-			FROM = { fuel = 1200 }
+			fuel = 1200
 		
 		}
 	}
@@ -872,7 +1744,7 @@ country_event = {
 				THIS = { fuel = 1500 }
 			}
 			THIS = { fuel = -1500 }
-			FROM = { fuel = 1500 }
+			fuel = 1500
 		
 		}
 	}
@@ -884,7 +1756,7 @@ country_event = {
 				THIS = { fuel = 1800 }
 			}
 			THIS = { fuel = -1800 }
-			FROM = { fuel = 1800 }
+			fuel = 1800
 		
 		}
 	}
@@ -959,7 +1831,7 @@ country_event = {
 				THIS = { aeroplanes = 900 }
 			}
 			THIS = { aeroplanes = -900 }
-			FROM = { aeroplanes = 900 }
+			aeroplanes = 900
 		
 		}
 	}
@@ -971,7 +1843,7 @@ country_event = {
 				THIS = { aeroplanes = 1200 }
 			}
 			THIS = { aeroplanes = -1200 }
-			FROM = { aeroplanes = 1200 }
+			aeroplanes = 1200
 		
 		}
 	}
@@ -983,7 +1855,7 @@ country_event = {
 				THIS = { aeroplanes = 1500 }
 			}
 			THIS = { aeroplanes = -1500 }
-			FROM = { aeroplanes = 1500 }
+			aeroplanes = 1500
 		
 		}
 	}
@@ -995,7 +1867,7 @@ country_event = {
 				THIS = { aeroplanes = 1800 }
 			}
 			THIS = { aeroplanes = -1800 }
-			FROM = { aeroplanes = 1800 }
+			aeroplanes = 1800
 		
 		}
 	}
@@ -1070,7 +1942,7 @@ country_event = {
 				THIS = { barrels = 900 }
 			}
 			THIS = { barrels = -900 }
-			FROM = { barrels = 900 }
+			barrels = 900
 		
 		}
 	}
@@ -1082,7 +1954,7 @@ country_event = {
 				THIS = { barrels = 1200 }
 			}
 			THIS = { barrels = -1200 }
-			FROM = { barrels = 1200 }
+			barrels = 1200
 		
 		}
 	}
@@ -1094,7 +1966,7 @@ country_event = {
 				THIS = { barrels = 1500 }
 			}
 			THIS = { barrels = -1500 }
-			FROM = { barrels = 1500 }
+			barrels = 1500
 		
 		}
 	}
@@ -1106,8 +1978,22 @@ country_event = {
 				THIS = { barrels = 1800 }
 			}
 			THIS = { barrels = -1800 }
-			FROM = { barrels = 1800 }
+			barrels = 1800
 		
 		}
+	}
+}
+
+
+
+country_event = {
+	id = 50010
+	title = "Insufficient stockpile"
+	desc = "We do not have enough goods in stock to send over."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
 	}
 }
