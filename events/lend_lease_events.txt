@@ -117,8 +117,8 @@ country_event = {
 
 country_event = {
 	id = 50001
-	title = "$FROMCOUNTRY$ Requests Artillery @D50"
-	desc = "$FROMCOUNTRY$ has requested artillery in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Artillery"
+	desc = "EVTDESC50001"
 	
 	is_triggered_only = yes
 	
@@ -663,8 +663,8 @@ country_event = {
 
 country_event = {
 	id = 50002
-	title = "$FROMCOUNTRY$ Requests Small Arms @D49"
-	desc = "$FROMCOUNTRY$ has requested small arms in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Small Arms"
+	desc = "EVTDESC50002"
 	
 	is_triggered_only = yes
 	
@@ -1209,8 +1209,8 @@ country_event = {
 
 country_event = {
 	id = 50003
-	title = "$FROMCOUNTRY$ Requests Canned Food @D48"
-	desc = "$FROMCOUNTRY$ has requested canned food in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Canned Food"
+	desc = "EVTDESC50003"
 	
 	is_triggered_only = yes
 	
@@ -1755,8 +1755,8 @@ country_event = {
 
 country_event = {
 	id = 50004
-	title = "$FROMCOUNTRY$ Requests Ammunition @D47"
-	desc = "$FROMCOUNTRY$ has requested Ammunition in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Ammunition"
+	desc = "EVTDESC50004"
 	
 	is_triggered_only = yes
 	
@@ -2301,8 +2301,8 @@ country_event = {
 
 country_event = {
 	id = 50005
-	title = "$FROMCOUNTRY$ Requests Clipper Convoys @D46"
-	desc = "$FROMCOUNTRY$ has requested clipper convoys in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Clipper Convoys"
+	desc = "EVTDESC50005"
 	
 	is_triggered_only = yes
 	
@@ -2847,8 +2847,8 @@ country_event = {
 
 country_event = {
 	id = 50006
-	title = "$FROMCOUNTRY$ Requests Steamer Convoys @D45"
-	desc = "$FROMCOUNTRY$ has requested steamer convoys in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Steamer Convoys"
+	desc = "EVTDESC50006"
 	
 	is_triggered_only = yes
 	
@@ -3393,8 +3393,8 @@ country_event = {
 
 country_event = {
 	id = 50007
-	title = "$FROMCOUNTRY$ Requests Fuel @D44"
-	desc = "$FROMCOUNTRY$ has requested fuel in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Fuel"
+	desc = "EVTDESC50007"
 	
 	is_triggered_only = yes
 	
@@ -3939,8 +3939,8 @@ country_event = {
 
 country_event = {
 	id = 50008
-	title = "$FROMCOUNTRY$ Requests Aeroplanes @D43"
-	desc = "$FROMCOUNTRY$ has requested Aeroplanes in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Aeroplanes"
+	desc = "EVTDESC50008"
 	
 	is_triggered_only = yes
 	
@@ -4485,8 +4485,8 @@ country_event = {
 
 country_event = {
 	id = 50009
-	title = "$FROMCOUNTRY$ Requests Tanks @D42"
-	desc = "$FROMCOUNTRY$ has requested Tanks in an aid package, how shall we respond?"
+	title = "$FROMCOUNTRY$ Requests Tanks"
+	desc = "EVTDESC50009"
 	
 	is_triggered_only = yes
 	
