@@ -29,7 +29,11 @@ Implemented host decisions that allow the host to siege/unsiege themselves intea
 
 TODOs/maybes for future versions:
 
+  goods.txt causes ooses? (reno)
+ 
 - TODO: port of medan does not let ships dock there
+
+- TODO: option for transfers that cost infamy
 
 - TODO: buffs/penalties for funding/not funding admin?
 
@@ -47,7 +51,8 @@ TODOs/maybes for future versions:
 
 - TODO: make the puppetted nation remove all alliances if they are puppeted?
 
-- TODO: Lend-lease not working?
+
+- TODO: remove russian core on åland islands
 
 - bigger stockpiles?
 
@@ -107,7 +112,7 @@ TODOs/maybes for future versions:
 
 - TODO: puppet grant system?
 
-- TODO: dye in china maybe?
+- TODO: consider making frigates require lvl 1 ports to build
 
 - TODO: buff tanks n planes more?
 
