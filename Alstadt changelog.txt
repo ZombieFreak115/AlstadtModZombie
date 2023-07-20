@@ -29,6 +29,8 @@ Implemented host decisions that allow the host to siege/unsiege themselves intea
 
 TODOs/maybes for future versions:
 
+- TODO: re-consolidate dye decisions
+
   goods.txt causes ooses? (reno)
  
 - TODO: port of medan does not let ships dock there
